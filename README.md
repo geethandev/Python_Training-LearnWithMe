@@ -55,7 +55,7 @@ Activate the virtual environment:
 
 ## Code Examples
 
-The `code-examples` directory contains a collection of code snippets and examples corresponding to various topics covered in my training. You can explore these examples to understand different concepts and see Python code in action.
+The `practice` directory contains a collection of code snippets and examples corresponding to various topics covered in my training. You can explore these examples to understand different concepts and see Python code in action.
 
 ## Contributing
 
