@@ -1,0 +1,24 @@
+Write a program that converts temperature from Fahrenheit to Celsius using the formula: Celsius = (Fahrenheit - 32) * 5/9.
+Variables:
+
+Write a program that swaps the values of two variables without using a temporary variable.
+Write a program that calculates the area of a rectangle using length and width stored in variables.
+Write a program that calculates the average of three test scores stored in variables.
+
+Type Conversion:
+
+Write a program that takes a user input as a string and converts it to an integer.
+Write a program that takes a user input as a floating-point number and converts it to an integer.
+Write a program that takes a user input as a number and converts it to a string.
+
+While Loop:
+
+Write a program that prints all even numbers from 1 to 20 using a while loop.
+Write a program that takes a user input and keeps asking for input until the user enters "quit" to exit.
+Write a program that calculates the factorial of a given number using a while loop.
+
+List:
+
+Write a program that finds the largest number in a list of numbers.
+Write a program that takes a list of strings and concatenates them into a single string.
+Write a program that removes duplicates from a list.
