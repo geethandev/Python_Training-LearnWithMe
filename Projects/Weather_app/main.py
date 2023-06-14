@@ -2,15 +2,28 @@ import requests
 import tkinter as tk
 from tkinter import messagebox, ttk
 import pprint as pp
-
+import os
+from PIL import Image, ImageTk
 class WeatherApp:
     def __init__(self):
         self.API_KEY = ' '  # Replace with your actual API key
+        
         self.weather_data = []
-
+        
+        # Setting up the main window
         self.window = tk.Tk()
-        self.window.geometry("800x600")
+        self.window.geometry("1920x1000")
         self.window.title("Weather App")
+        
+        # Set up the background image
+        base_dir = os.path.dirname(os.path.abspath(__file__))
+        image_path = os.path.join(base_dir, "bg.png")
+        self.background_image = Image.open(image_path)
+        self.background_image = self.background_image.resize((1920, 1080), Image.ANTIALIAS)  # Resize the image to fit the window
+        self.background_photo = ImageTk.PhotoImage(self.background_image)
+        self.background_label = tk.Label(self.window, image=self.background_photo)
+        self.background_label.place(x=0, y=0, relwidth=1, relheight=1)  # Place the label to cover the entire window
+
 
         self.title_label = tk.Label(self.window, text="Weather App", font=("Arial", 16))
         self.title_label.pack(pady=10)
